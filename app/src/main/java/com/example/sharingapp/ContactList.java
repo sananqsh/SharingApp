@@ -65,13 +65,7 @@ public class ContactList {
     }
 
     public boolean hasContact(Contact contact) {
-        for (Contact c: contacts) {
-            if (c.getId().equals(contact.getId())) {
-                return true;
-            }
-        }
-
-        return false;
+        return contacts.contains(contact);
     }
 
     public Contact getContactByUsername(String username) {
@@ -89,7 +83,7 @@ public class ContactList {
             FileInputStream fis = context.openFileInput(FILENAME);
             InputStreamReader isr = new InputStreamReader(fis);
             Gson gson = new Gson();
-            Type listType = new TypeToken<ArrayList<Item>>() {}.getType();
+            Type listType = new TypeToken<ArrayList<Contact>>() {}.getType();
             contacts = gson.fromJson(isr, listType); // temporary
             fis.close();
         } catch (FileNotFoundException e) {
@@ -104,7 +98,7 @@ public class ContactList {
             FileOutputStream fos = context.openFileOutput(FILENAME, 0);
             OutputStreamWriter osw = new OutputStreamWriter(fos);
             Gson gson = new Gson();
-            gson.toJson(context, osw);
+            gson.toJson(contacts, osw);
             osw.flush();
             fos.close();
         } catch (FileNotFoundException e) {
