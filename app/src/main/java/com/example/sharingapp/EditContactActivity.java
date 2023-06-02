@@ -9,7 +9,7 @@ import android.widget.EditText;
  * Editing a pre-existing contact consists of deleting the old contact and adding
  a new contact with the old
  * contact's id.
- * Note: You will not be able contacts which are "active" borrowers
+ * Note: You will not be able to change contacts which are "active" borrowers
  */
 public class EditContactActivity extends AppCompatActivity {
     private ContactList contact_list = new ContactList();
