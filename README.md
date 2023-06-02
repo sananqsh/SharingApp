@@ -13,3 +13,5 @@ and their respective layouts and activities.
 # Demo
   [This video](https://youtu.be/knH3OFZM23k) demonstrates the app.
   
+  [This](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_378261654f7e71fc7355bb8aa5d67853_UML-Class-Diagram-Contacts.png?expiry=1685836800000&hmac=tcTllbqGYC9oHaOLgfWYcgoZkaIVy-_lAU1RT3mHHog) is a UML class diagram of the final version
+  
