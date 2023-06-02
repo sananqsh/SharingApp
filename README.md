@@ -13,5 +13,14 @@ and their respective layouts and activities.
 # Demo
   [This video](https://youtu.be/knH3OFZM23k) demonstrates the app.
   
-  [This](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_378261654f7e71fc7355bb8aa5d67853_UML-Class-Diagram-Contacts.png?expiry=1685836800000&hmac=tcTllbqGYC9oHaOLgfWYcgoZkaIVy-_lAU1RT3mHHog) is a UML class diagram of the final version
+  [This](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_378261654f7e71fc7355bb8aa5d67853_UML-Class-Diagram-Contacts.png?expiry=1685836800000&hmac=tcTllbqGYC9oHaOLgfWYcgoZkaIVy-_lAU1RT3mHHog) is a UML class diagram of the final version of the app.
   
+#### UML Diagrams before adding contacts (items only)
+- UML Class Diagram (Capstone Assignment 1.1)
+![UML Class Diagram](./diagrams/UML_Class_Diagram_for_SharingApp_Items_Only_1_1.png)
+
+- UML Sequence Diagram (Capstone Assignment 1.2)
+![UML Sequence Diagram](./diagrams/UML_Sequence_Diagram_for_SharingApp_Items_Only_1_2.png)
+
+- UML State Diagram (Capstone Assignment 1.3)
+![UML State Diagram](./diagrams/UML_State_Diagram_for_SharingApp_Items_Only_1_3.png)
